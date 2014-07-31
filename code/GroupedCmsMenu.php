@@ -21,7 +21,7 @@ class GroupedCmsMenu extends DataExtension {
 
 	public function init() {
 		Requirements::javascript(THIRDPARTY_DIR . '/jquery/jquery.js');
-		Requirements::css('silverstripe-groupedcmsmenu/css/GroupedCmsMenu.css');
+		Requirements::css(GROUPEDCMSMENU_PATH . '/css/GroupedCmsMenu.css');
 	}
 
 	/**
